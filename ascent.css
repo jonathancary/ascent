@@ -310,7 +310,7 @@ input[type='submit'] {
   white-space: nowrap;
   transition: all 0.3s ease 0s;
 }
-.button.button-small{
+.button.buttonSmall{
   font-size: 9px;
   font-weight: 600;
   height: 25px;
@@ -318,7 +318,7 @@ input[type='submit'] {
   line-height: 24px;
   padding: 0 10px;
 }
-.button.button-large{
+.button.buttonLarge{
   font-size: 15px;
   font-weight: 600;
   height: 50px;
@@ -326,46 +326,46 @@ input[type='submit'] {
   line-height: 48px;
   padding: 0 35px;
 }
-.button.button-primary-light {
+.button.buttonPrimaryLight {
   background-color: var(--color-primary-light);
   border-color: var(--color-primary-light);
   color: var(--color-on-seconday);
 }
-.button.button-primary-dark {
+.button.buttonPrimaryDark {
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
   color: var(--color-on-primary);
 }
 
 /* Secondary Color */
-.button.button-secondary {
+.button.buttonSecondary {
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
   color: var(--color-on-seconday);
 }
-.button.button-secondary-light {
+.button.buttonSecondaryLight {
   background-color: var(--color-secondary-light);
   border-color: var(--color-secondary-light);
   color: var(--color-on-seconday);
 }
-.button.button-secondary-dark {
+.button.buttonSecondaryDark {
   background-color: var(--color-secondary-dark);
   border-color: var(--color-secondary-dark);
   color: var(--color-on-seconday);
 }
 
 /* Alternate Color */
-.button.button-alternate {
+.button.buttonAlternate {
   background-color: var(--color-alternate);
   border-color: var(--color-alternate);
   color: var(--color-on-alternate);
 }
-.button.button-alternate-light {
+.button.buttonAlternateLight {
   background-color: var(--color-alternate-light);
   border-color: var(--color-alternate-light);
   color: var(--color-on-alternate);
 }
-.button.button-alternate-dark {
+.button.buttonAlternateDark {
   background-color: var(--color-alternate-dark);
   border-color: var(--color-alternate-dark);
   color: var(--color-on-alternate-alt);
@@ -387,102 +387,102 @@ input[type='submit']:hover {
   color: var(--color-on-primary);
   outline: 0;
 }
-.button.button-primary-light:focus,
-.button.button-primary-light:hover {
+.button.buttonPrimaryLight:focus,
+.button.buttonPrimaryLight:hover {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-on-primary);
 }
-.button.button-primary-dark:focus,
-.button.button-primary-dark:hover {
+.button.buttonPrimaryDark:focus,
+.button.buttonPrimaryDark:hover {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-on-primary);
 }
 
 /* Secondary Hover and Focus */
-.button.button-secondary:focus,
-.button.button-secondary:hover {
+.button.buttonSecondary:focus,
+.button.buttonSecondary:hover {
   background-color: var(--color-secondary-dark);
   border-color: var(--color-secondary-dark);
   color: var(--color-on-seconday);
 }
-.button.button-secondary-light:focus,
-.button.button-secondary-light:hover {
+.button.buttonSecondaryLight:focus,
+.button.buttonSecondaryLight:hover {
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
   color: var(--color-on-seconday);
 }
-.button.button-secondary-dark:focus,
-.button.button-secondary-dark:hover {
+.button.buttonSecondaryDark:focus,
+.button.buttonSecondaryDark:hover {
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
   color: var(--color-on-seconday);
 }
 
 /* Alternate Hover and Focus */
-.button.button-alternate:focus,
-.button.button-alternate:hover {
+.button.buttonAlternate:focus,
+.button.buttonAlternate:hover {
   background-color: var(--color-alternate-dark);
   border-color: var(--color-alternate-dark);
   color: var(--color-on-alternate);
 }
-.button.button-alternate-light:focus,
-.button.button-alternate-light:hover {
+.button.buttonAlternateLight:focus,
+.button.buttonAlternateLight:hover {
   background-color: var(--color-alternate);
   border-color: var(--color-alternate);
   color: var(--color-on-alternate);
 }
-.button.button-alternate-dark:focus,
-.button.button-alternate-dark:hover {
+.button.buttonAlternateDark:focus,
+.button.buttonAlternateDark:hover {
   background-color: var(--color-alternate);
   border-color: var(--color-alternate);
   color: var(--color-on-alternate-alt);
 }
 
 /* Outlined Primary Button */
-.button-outline {
+.buttonOutline {
   background-color: transparent;
   color: var(--color-primary);
 }
 
-.button-outline:focus, 
-.button-outline:hover {
+.buttonOutline:focus, 
+.buttonOutline:hover {
   background-color: transparent;
   border-color: var(--color-primary-dark);
   color: var(--color-primary-dark);
 }
 
-.button-outline[disabled]:focus, 
-.button-outline[disabled]:hover {
+.buttonOutline[disabled]:focus, 
+.buttonOutline[disabled]:hover {
   border-color: inherit;
   color: var(--color-primary);
   cursor: default;
   opacity: .5;
 }
 /* Outlined Secondary Button */
-.button-secondary.button-outline,
-button.button-secondary.button-outline,
-input.button-secondary.button-outline {
+.buttonSecondary.buttonOutline,
+button.buttonSecondary.buttonOutline,
+input.buttonSecondary.buttonOutline {
   background-color: transparent;
   color: var(--color-secondary);
 }
-.button-secondary.button-outline:focus, 
-.button-secondary.button-outline:hover,
-button.button-secondary.button-outline:focus, 
-button.button-secondary.button-outline:hover,
-input.button-secondary.button-outline:focus, 
-input.button-secondary.button-outline:hover {
+.buttonSecondary.buttonOutline:focus, 
+.buttonSecondary.buttonOutline:hover,
+button.buttonSecondary.buttonOutline:focus, 
+button.buttonSecondary.buttonOutline:hover,
+input.buttonSecondary.buttonOutline:focus, 
+input.buttonSecondary.buttonOutline:hover {
   background-color: transparent;
   border-color: var(--color-secondary-dark);
   color: var(--color-secondary-dark);
 }
-.button-secondary.button-outline[disabled]:focus, 
-.button-secondary.button-outline[disabled]:hover,
-button.button-secondary.button-outline[disabled]:focus, 
-button.button-secondary.button-outline[disabled]:hover,
-input.button-secondary.button-outline[disabled]:focus, 
-input.button-secondary.button-outline[disabled]:hover {
+.buttonSecondary.buttonOutline[disabled]:focus, 
+.buttonSecondary.buttonOutline[disabled]:hover,
+button.buttonSecondary.buttonOutline[disabled]:focus, 
+button.buttonSecondary.buttonOutline[disabled]:hover,
+input.buttonSecondary.buttonOutline[disabled]:focus, 
+input.buttonSecondary.buttonOutline[disabled]:hover {
   border-color: inherit;
   color: var(--color-secondary);
   cursor: default;
@@ -490,28 +490,28 @@ input.button-secondary.button-outline[disabled]:hover {
 }
 
 /* Outlined Alternate Button */
-.button-alternate.button-outline,
-button.button-alternate.button-outline,
-input.button-alternate.button-outline {
+.buttonAlternate.buttonOutline,
+button.buttonAlternate.buttonOutline,
+input.buttonAlternate.buttonOutline {
   background-color: transparent;
   color: var(--color-alternate);
 }
-.button-alternate.button-outline:focus, 
-.button-alternate.button-outline:hover,
-button.button-alternate.button-outline:focus, 
-button.button-alternate.button-outline:hover,
-input.button-alternate.button-outline:focus, 
-input.button-alternate.button-outline:hover {
+.buttonAlternate.buttonOutline:focus, 
+.buttonAlternate.buttonOutline:hover,
+button.buttonAlternate.buttonOutline:focus, 
+button.buttonAlternate.buttonOutline:hover,
+input.buttonAlternate.buttonOutline:focus, 
+input.buttonAlternate.buttonOutline:hover {
   background-color: transparent;
   border-color: var(--color-alternate-dark);
   color: var(--color-alternate-dark);
 }
-.button-alternate.button-outline[disabled]:focus, 
-.button-alternate.button-outline[disabled]:hover,
-button.button-alternate.button-outline[disabled]:focus, 
-button.button-alternate.button-outline[disabled]:hover,
-input.button-alternate.button-outline[disabled]:focus, 
-input.button-alternate.button-outline[disabled]:hover {
+.buttonAlternate.buttonOutline[disabled]:focus, 
+.buttonAlternate.buttonOutline[disabled]:hover,
+button.buttonAlternate.buttonOutline[disabled]:focus, 
+button.buttonAlternate.buttonOutline[disabled]:hover,
+input.buttonAlternate.buttonOutline[disabled]:focus, 
+input.buttonAlternate.buttonOutline[disabled]:hover {
   border-color: inherit;
   color: var(--color-alternate);
   cursor: default;
@@ -519,83 +519,83 @@ input.button-alternate.button-outline[disabled]:hover {
 }
 
 /* Clear Primary Button */
-.button-clear,
-button.button-clear,
-input.button-clear {
+.buttonClear,
+button.buttonClear,
+input.buttonClear {
   background-color: transparent;
   border-color: transparent;
   color: var(--color-primary);
 }
-.button-clear:focus, 
-.button-clear:hover,
-button.button-clear:focus, 
-button.button-clear:hover,
-input.button-clear:focus, 
-input.button-clear:hover {
+.buttonClear:focus, 
+.buttonClear:hover,
+button.buttonClear:focus, 
+button.buttonClear:hover,
+input.buttonClear:focus, 
+input.buttonClear:hover {
   background-color: transparent;
   border-color: transparent;
   color: var(--color-primary-dark);
 }
-.button-clear[disabled]:focus, 
-.button-clear[disabled]:hover,
-button.button-clear[disabled]:focus, 
-button.button-clear[disabled]:hover,
-input.button-clear[disabled]:focus, 
-input.button-clear[disabled]:hover {
+.buttonClear[disabled]:focus, 
+.buttonClear[disabled]:hover,
+button.buttonClear[disabled]:focus, 
+button.buttonClear[disabled]:hover,
+input.buttonClear[disabled]:focus, 
+input.buttonClear[disabled]:hover {
   color: var(--color-primary);
 }
 
 /* Clear Secondary Button */
-.button-secondary.button-clear,
-button.button-secondary.button-clear,
-input.button-secondary.button-clear {
+.buttonSecondary.buttonClear,
+button.buttonSecondary.buttonClear,
+input.buttonSecondary.buttonClear {
   background-color: transparent;
   border-color: transparent;
   color: var(--color-secondary);
 }
-.button-secondary.button-clear:focus, 
-.button-secondary.button-clear:hover,
-button.button-secondary.button-clear:focus, 
-button.button-secondary.button-clear:hover,
-input.button-secondary.button-clear:focus, 
-input.button-secondary.button-clear:hover {
+.buttonSecondary.buttonClear:focus, 
+.buttonSecondary.buttonClear:hover,
+button.buttonSecondary.buttonClear:focus, 
+button.buttonSecondary.buttonClear:hover,
+input.buttonSecondary.buttonClear:focus, 
+input.buttonSecondary.buttonClear:hover {
   background-color: transparent;
   border-color: transparent;
   color: var(--color-secondary-dark);
 }
-.button-secondary.button-clear[disabled]:focus, 
-.button-secondary.button-clear[disabled]:hover,
-button.button-secondary.button-clear[disabled]:focus, 
-button.button-secondary.button-clear[disabled]:hover,
-input.button-secondary.button-clear[disabled]:focus, 
-input.button-secondary.button-clear[disabled]:hover {
+.buttonSecondary.buttonClear[disabled]:focus, 
+.buttonSecondary.buttonClear[disabled]:hover,
+button.buttonSecondary.buttonClear[disabled]:focus, 
+button.buttonSecondary.buttonClear[disabled]:hover,
+input.buttonSecondary.buttonClear[disabled]:focus, 
+input.buttonSecondary.buttonClear[disabled]:hover {
   color: var(--color-secondary);
 }
 
 /* Clear Alternate Button */
-.button-alternate.button-clear,
-button.button-alternate.button-clear,
-input.button-alternate.button-clear {
+.buttonAlternate.buttonClear,
+button.buttonAlternate.buttonClear,
+input.buttonAlternate.buttonClear {
   background-color: transparent;
   border-color: transparent;
   color: var(--color-alternate);
 }
-.button-alternate.button-clear:focus, 
-.button-alternate.button-clear:hover,
-button.button-alternate.button-clear:focus, 
-button.button-alternate.button-clear:hover,
-input.button-alternate.button-clear:focus, 
-input.button-alternate.button-clear:hover {
+.buttonAlternate.buttonClear:focus, 
+.buttonAlternate.buttonClear:hover,
+button.buttonAlternate.buttonClear:focus, 
+button.buttonAlternate.buttonClear:hover,
+input.buttonAlternate.buttonClear:focus, 
+input.buttonAlternate.buttonClear:hover {
   background-color: transparent;
   border-color: transparent;
   color: var(--color-alternate-dark);
 }
-.button-alternate.button-clear[disabled]:focus, 
-.button-alternate.button-clear[disabled]:hover,
-button.button-alternate.button-clear[disabled]:focus, 
-button.button-alternate.button-clear[disabled]:hover,
-input.button-alternate.button-clear[disabled]:focus, 
-input.button-alternate.button-clear[disabled]:hover {
+.buttonAlternate.buttonClear[disabled]:focus, 
+.buttonAlternate.buttonClear[disabled]:hover,
+button.buttonAlternate.buttonClear[disabled]:focus, 
+button.buttonAlternate.buttonClear[disabled]:hover,
+input.buttonAlternate.buttonClear[disabled]:focus, 
+input.buttonAlternate.buttonClear[disabled]:hover {
   color: var(--color-alternate);
 }
 
@@ -696,7 +696,7 @@ input[type='radio'] {
   display: inline;
 }
 
-.label-inline {
+.labelInline {
   display: inline-block;
   font-weight: normal;
   margin-left: 5px;
@@ -738,11 +738,11 @@ img {
   max-width: 100%;
 }
 
-.image-rounded-corners {
+.imageRoundedCorners {
   border-radius: var(--border-radius-primary);
 }
 
-.image-circle {
+.imageCircle {
   clip-path: circle(60px at center);
 }
 
@@ -809,23 +809,23 @@ ul {
   -ms-flex-pack: center;
   justify-content: center;
 }
-.aligner-item {
+.alignerItem {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
-.aligner-item-top {
+.alignerItemTop {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
-.aligner-item-bottom {
+.alignerItemBottom {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
 }
-.aligner-item-fixed {
+.alignerItemFixed {
   -webkit-box-flex: 0;
   -webkit-flex: none;
   -ms-flex: none;
@@ -850,7 +850,7 @@ ul {
   visibility: hidden;
 }
 
-.card-spaced {
+.cardSpaced {
   margin-bottom: 24px;
 }
 
@@ -869,29 +869,29 @@ ul {
   align-items: flex-start;
   margin-bottom: 1em;
 }
-.media-figure {
+.mediaFigure {
   margin-right: 1em;
 }
-.media-body {
+.mediaBody {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
-.media-body,
-.media-body :last-child {
+.mediaBody,
+.mediaBody :last-child {
   margin-bottom: 0;
 }
-.media-title {
+.mediaTitle {
   margin: 0 0 0.5em;
 }
-.media-center {
+.mediaCenter {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
-.media-reverse > .Media-figure {
+.mediaReverse > .mediaFigure {
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
   -ms-flex-order: 1;
@@ -903,62 +903,62 @@ ul {
 /****************************************************
 * 17. Backgrounds
 ****************************************************/
-.bg-white {
+.bgWhite {
   background-color: var(--color-white);
 }
-.bg-grey {
+.bgGrey {
   background-color: var(--color-grey);
   color: var(--color-on-body);
 }
-.bg-grey-light {
+.bgGreyLight {
   background-color: var(--color-grey-light);
   color: var(--color-on-body);
 }
-.bg-grey-dark {
+.bgGreyDark {
   background-color: var(--color-grey-dark);
   color: var(--color-white);
 }
-.bg-primary {
+.bgPrimary {
   background-color: var(--color-primary);
   color: var(--color-on-primary);
 }
-.bg-primary-light {
+.bgPrimaryLight {
   background-color: var(--color-primary-light);
   color: var(--color-on-primary);
 }
-.bg-primary-dark {
+.bgPrimaryDark {
   background-color: var(--color-primary-dark);
   color: var(--color-on-primary);
 }
-.bg-secondary {
+.bgSecondary {
   background-color: var(--color-secondary);
   color: var(--color-on-seconday);
 }
-.bg-secondary-light {
+.bgSecondaryLight {
   background-color: var(--color-secondary-light);
   color: var(--color-on-seconday);
 }
-.bg-secondary-dark {
+.bgSecondaryDark {
   background-color: var(--color-secondary-dark);
   color: var(--color-on-seconday);
 }
-.bg-alternate {
+.bgAlternate {
   background-color: var(--color-alternate);
   color: var(--color-on-alternate);
 }
-.bg-alternate-light {
+.bgAlternateLight {
   background-color: var(--color-alternate-light);
   color: var(--color-on-alternate);
 }
-.bg-alternate-dark {
+.bgAlternateDark {
   background-color: var(--color-alternate-dark);
   color: var(--color-on-alternate);
 }
-.bg-success {
+.bgSuccess {
   background-color: var(--color-success);
   color: var(--color-on-success);
 }
-.bg-error {
+.bgError {
   background-color: var(--color-error);
   color: var(--color-on-error);
 }
@@ -969,52 +969,52 @@ ul {
 ****************************************************/
 
 /* Clear a float with .clearfix */
-.u-clearfix:after {
+.uClearfix:after {
   clear: both;
   content: ' '; /* The space content is one way to avoid an Opera bug. */
   display: table;
 }
 
 /* Float either direction */
-.u-float-left {
+.uFloatLeft {
   float: left;
 }
 
-.u-float-right {
+.uFloatRight {
   float: right;
 }
 
 /* Depth Box Shadows */
-.u-shadow-1 {
+.uShadow1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-.u-shadow-2 {
+.uShadow2 {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-.u-shadow-3 {
+.uShadow3 {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-.u-shadow-4 {
+.uShadow4 {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-.u-shadow-5 {
+.uShadow5 {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 /* Text Alignment */
-.u-textBreak {
+.uTextBreak {
   word-wrap: break-word !important;
 }
-.u-textCenter {
+.uTextCenter {
   text-align: center !important;
 }
-.u-textLeft {
+.uTextLeft {
   text-align: left !important;
 }
-.u-textRight {
+.uTextRight {
   text-align: right !important;
 }
-.u-ieMinHeightBugFix {
+.uIeMinHeightBugFix {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1027,24 +1027,24 @@ ul {
 }
 
 /* Text Transformers */
-.u-text-lowercase {
+.uTextLowercase {
   text-transform: lowercase;
 }
-.u-text-uppercase {
+.uTextUppercase {
   text-transform: uppercase;
 }
-.u-text-capitalize {
+.uTextCapitalize {
   text-transform: capitalize;
 }
 
 /* Display and Visibility */
-.u-show {
+.uShow {
   display: block !important;
 }
-.u-hidden {
+.uHidden {
   display: none !important;
 }
-.u-invisible {
+.uInvisible {
   visibility: hidden;
 }
 
@@ -1063,23 +1063,23 @@ ul {
 * -- Helps allow for Sitcky Footer.
 */
 
- .site {
+.site {
   display: flex;
   flex-direction: column;
   height: 100%; /* 1, 3 */
 }
 
-.site-header,
-.site-footer {
+.siteHeader,
+.siteFooter {
   flex: none; /* 2 */
 }
 
-.site-content {
+.siteContent {
   flex: 1 0 auto; /* 2 */
   padding: 32px 32px 0;
   width: 100%;
 }
-.site-content::after {
+.siteContent::after {
   content: '\00a0'; /* &nbsp; */
   display: block;
   margin-top: 32px;
@@ -1087,17 +1087,17 @@ ul {
   visibility: hidden;
 }
 @media (min-width: 768px) {
-  .site-content {
+  .siteContent {
     padding: 32px 125px 0;
   }
-  .site-content:after {
+  .siteContent:after {
     margin-top: 32px;
   }
 }
-.site-content-full {
+.siteContentFull {
   padding: 0;
 }
-.site-content-full:after {
+.siteContentFull:after {
   content: none;
 }
 
@@ -1114,371 +1114,371 @@ ul {
   padding: 0;
 }
 
-.grid-cell {  
+.gridCell {  
   flex: 1;
 }
 
-.grid-flex-cells > .grid-cell {
+.gridFlexCells > .gridCell {
   display: flex;
 }
 
 /* Alignment per row */
-.grid-top {
+.gridTop {
   align-items: flex-start;
 }
 
-.grid-bottom {
+.gridBottom {
   align-items: flex-end;
 }
 
-.grid-center {
+.gridCenter {
   align-items: center;
 }
 
-.grid-justifyCenter {
+.gridJustifyCenter {
   justify-content: center;
 }
 
 /* Alignment per cell */
-.grid-cell-top {
+.gridCellTop {
   align-self: flex-start;
 }
 
-.grid-cell-bottom {
+.gridCellBottom {
   align-self: flex-end;
 }
 
-.grid-cell-center {
+.gridCellCenter {
   align-self: center;
 }
 
-.grid-cell-auto-size {
+.gridCellAutoSize {
   flex: none;
 }
 
 /* Base classes for all media */
-.grid-fit > .grid-cell {
+.gridFit > .gridCell {
   flex: 1;
 }
 
-.grid-full > .grid-cell {
+.gridFull > .gridCell {
   flex: 0 0 100%;
 }
 
-.grid-1of2 > .grid-cell {
+.grid1of2 > .gridCell {
   flex: 0 0 50%;
 }
 
-.grid-1of3 > .grid-cell {
+.grid1of3 > .gridCell {
   flex: 0 0 33.3333%;
 }
 
-.grid-1of4 > .grid-cell {
+.grid1of4 > .gridCell {
   flex: 0 0 25%;
 }
 
 /* Small screens and larger */
 @media (min-width: 384px) {
-  .small-grid-fit > .grid-cell {
+  .smallGridFit > .gridCell {
     flex: 1;
   }
-  .small-grid-full > .grid-cell {
+  .smallGridFull > .gridCell {
     flex: 0 0 100%;
   }
-  .small-grid-1of2 > .grid-cell {
+  .smallGrid1of2 > .gridCell {
     flex: 0 0 50%;
   }
-  .small-grid-1of3 > .grid-cell {
+  .smallGrid1of3 > .gridCell {
     flex: 0 0 33.3333%;
   }
-  .small-grid-1of4 > .grid-cell {
+  .smallGrid1of4 > .gridCell {
     flex: 0 0 25%;
   }
 }
 
 /* Medium screens and larger */
 @media (min-width: 576px) {
-  .med-grid-fit > .grid-cell {
+  .medGridFit > .gridCell {
     flex: 1;
   }
-  .med-grid-full > .grid-cell {
+  .medGridFull > .gridCell {
     flex: 0 0 100%;
   }
-  .med-grid-1of2 > .grid-cell {
+  .medGrid1of2 > .gridCell {
     flex: 0 0 50%;
   }
-  .med-grid-1of3 > .grid-cell {
+  .medGrid1of3 > .gridCell {
     flex: 0 0 33.3333%;
   }
-  .med-grid-1of4 > .grid-cell {
+  .medGrid1of4 > .gridCell {
     flex: 0 0 25%;
   }
 }
 
 /* Large screens and larger */
 @media (min-width: 768px) {
-  .large-grid-fit > .grid-cell {
+  .largeGridFit > .gridCell {
     flex: 1;
   }
-  .large-grid-full > .grid-cell {
+  .largeGridFull > .gridCell {
     flex: 0 0 100%;
   }
-  .large-grid-1of2 > .grid-cell {
+  .largeGrid1of2 > .gridCell {
     flex: 0 0 50%;
   }
-  .large-grid-1of3 > .grid-cell {
+  .largeGrid1of3 > .gridCell {
     flex: 0 0 33.3333%;
   }
-  .large-grid-1of4 > .grid-cell {
+  .largeGrid1of4 > .gridCell {
     flex: 0 0 25%;
   }
 }
 
 /* With gutters */
-.grid-gutters {
+.gridGutters {
   margin: -1em 0 1em -1em;
 }
-.grid-gutters > .grid-cell {
+.gridGutters > .gridCell {
   padding: 1em 0 0 1em;
 }
 
-.grid-gutters-lg {
+.gridGuttersLG {
   margin: -1.5em 0 1.5em -1.5em;
 }
-.grid-gutters-lg > .grid-cell {
+.gridGuttersLG > .gridCell {
   padding: 1.5em 0 0 1.5em;
 }
 
-.grid-gutters-xl {
+.gridGuttersXL {
   margin: -2em 0 2em -2em;
 }
-.grid-gutters-xl > .grid-cell {
+.gridGuttersXL > .gridCell {
   padding: 2em 0 0 2em;
 }
 
 @media (min-width: 384px) {
-  .small-grid-gutters {
+  .smallGridGutters {
     margin: -1em 0 1em -1em;
   }
-  .small-grid-gutters > .grid-cell {
+  .smallGridGutters > .gridCell {
     padding: 1em 0 0 1em;
   }
-  .small-grid-gutters-lg {
+  .smallGridGuttersLG {
     margin: -1.5em 0 1.5em -1.5em;
   }
-  .small-grid-gutters-lg > .grid-cell {
+  .smallGridGuttersLG > .gridCell {
     padding: 1.5em 0 0 1.5em;
   }
-  .small-grid-gutters-lg {
+  .smallGridGuttersLG {
     margin: -2em 0 2em -2em;
   }
-  .small-grid-gutters-lg > .grid-cell {
+  .smallGridGuttersLG > .gridCell {
     padding: 2em 0 0 2em;
   }
 }
 
 @media (min-width: 576px) {
-  .med-grid-gutters {
+  .medGridGutters {
     margin: -1em 0 1em -1em;
   }
-  .med-grid-gutters > .grid-cell {
+  .medGridGutters > .gridCell {
     padding: 1em 0 0 1em;
   }
-  .med-grid-gutters-lg {
+  .medGridGuttersLG {
     margin: -1.5em 0 1.5em -1.5em;
   }
-  .med-grid-gutters-lg > .grid-cell {
+  .medGridGuttersLG > .gridCell {
     padding: 1.5em 0 0 1.5em;
   }
-  .med-grid-gutters-xl {
+  .medGridGuttersXL {
     margin: -2em 0 2em -2em;
   }
-  .med-grid-gutters-xl > .grid-cell {
+  .medGridGuttersXL > .gridCell {
     padding: 2em 0 0 2em;
   }
 }
 
 @media (min-width: 768px) {
-  .large-grid-gutters {
+  .largeGridGutters {
     margin: -1em 0 1em -1em;
   }
-  .large-grid-gutters > .grid-cell {
+  .largeGridGutters > .gridCell {
     padding: 1em 0 0 1em;
   }
-  .large-grid-gutters-lg {
+  .largeGridGuttersLG {
     margin: -1.5em 0 1.5em -1.5em;
   }
-  .large-grid-gutters-lg > .grid-cell {
+  .largeGridGuttersLG > .gridCell {
     padding: 1.5em 0 0 1.5em;
   }
-  .large-grid-gutters-xl {
+  .largeGridGuttersXL {
     margin: -2em 0 2em -2em;
   }
-  .large-grid-gutters-xl > .grid-cell {
+  .largeGridGuttersXL > .gridCell {
     padding: 2em 0 0 2em;
   }
 }
 
 /* Grid Utilities */
-.u-full {
+.uFull {
   width: 100% !important;
 }
-.u-1of2,
-.u-full {
+.u1of2,
+.uFull {
   -webkit-box-flex: 0 !important;
   -webkit-flex: none !important;
   -ms-flex: none !important;
   flex: none !important;
 }
-.u-1of2 {
+.u1of2 {
   width: 50% !important;
 }
-.u-1of3 {
+.u1of3 {
   width: 33.3333% !important;
 }
-.u-1of3,
-.u-2of3 {
+.u1of3,
+.u2of3 {
   -webkit-box-flex: 0 !important;
   -webkit-flex: none !important;
   -ms-flex: none !important;
   flex: none !important;
 }
-.u-2of3 {
+.u2of3 {
   width: 66.6667% !important;
 }
-.u-1of4 {
+.u1of4 {
   width: 25% !important;
 }
-.u-1of4,
-.u-3of4 {
+.u1of4,
+.u3of4 {
   -webkit-box-flex: 0 !important;
   -webkit-flex: none !important;
   -ms-flex: none !important;
   flex: none !important;
 }
-.u-3of4 {
+.u3of4 {
   width: 75% !important;
 }
 @media (min-width: 384px) {
-  .u-small-full {
+  .uSmallFull {
     width: 100% !important;
   }
-  .u-small-1of2,
-  .u-small-full {
+  .uSmall1of2,
+  .uSmallFull {
     -webkit-box-flex: 0 !important;
     -webkit-flex: none !important;
     -ms-flex: none !important;
     flex: none !important;
   }
-  .u-small-1of2 {
+  .uSmall1of2 {
     width: 50% !important;
   }
-  .u-small-1of3 {
+  .uSmall1of3 {
     width: 33.3333% !important;
   }
-  .u-small-1of3,
-  .u-small-2of3 {
+  .uSmall1of3,
+  .uSmall2of3 {
     -webkit-box-flex: 0 !important;
     -webkit-flex: none !important;
     -ms-flex: none !important;
     flex: none !important;
   }
-  .u-small-2of3 {
+  .uSmall2of3 {
     width: 66.6667% !important;
   }
-  .u-small-1of4 {
+  .uSmall1of4 {
     width: 25% !important;
   }
-  .u-small-1of4,
-  .u-small-3of4 {
+  .uSmall1of4,
+  .uSmall3of4 {
     -webkit-box-flex: 0 !important;
     -webkit-flex: none !important;
     -ms-flex: none !important;
     flex: none !important;
   }
-  .u-small-3of4 {
+  .uSmall3of4 {
     width: 75% !important;
   }
 }
 @media (min-width: 576px) {
-  .u-med-full {
+  .uMedFull {
     width: 100% !important;
   }
-  .u-med-1of2,
-  .u-med-full {
+  .uMed1of2,
+  .uMedFull {
     -webkit-box-flex: 0 !important;
     -webkit-flex: none !important;
     -ms-flex: none !important;
     flex: none !important;
   }
-  .u-med-1of2 {
+  .uMed1of2 {
     width: 50% !important;
   }
-  .u-med-1of3 {
+  .uMed1of3 {
     width: 33.3333% !important;
   }
-  .u-med-1of3,
-  .u-med-2of3 {
+  .uMed1of3,
+  .uMed2of3 {
     -webkit-box-flex: 0 !important;
     -webkit-flex: none !important;
     -ms-flex: none !important;
     flex: none !important;
   }
-  .u-med-2of3 {
+  .uMed2of3 {
     width: 66.6667% !important;
   }
-  .u-med-1of4 {
+  .uMed1of4 {
     width: 25% !important;
   }
-  .u-med-1of4,
-  .u-med-3of4 {
+  .uMed1of4,
+  .uMed3of4 {
     -webkit-box-flex: 0 !important;
     -webkit-flex: none !important;
     -ms-flex: none !important;
     flex: none !important;
   }
-  .u-med-3of4 {
+  .uMed3of4 {
     width: 75% !important;
   }
 }
 @media (min-width: 768px) {
-  .u-large-full {
+  .uLargeFull {
     width: 100% !important;
   }
-  .u-large-1of2,
-  .u-large-full {
+  .uLarge1of2,
+  .uLargeFull {
     -webkit-box-flex: 0 !important;
     -webkit-flex: none !important;
     -ms-flex: none !important;
     flex: none !important;
   }
-  .u-large-1of2 {
+  .uLarge1of2 {
     width: 50% !important;
   }
-  .u-large-1of3 {
+  .uLarge1of3 {
     width: 33.3333% !important;
   }
-  .u-large-1of3,
-  .u-large-2of3 {
+  .uLarge1of3,
+  .uLarge2of3 {
     -webkit-box-flex: 0 !important;
     -webkit-flex: none !important;
     -ms-flex: none !important;
     flex: none !important;
   }
-  .u-large-2of3 {
+  .uLarge2of3 {
     width: 66.6667% !important;
   }
-  .u-large-1of4 {
+  .uLarge1of4 {
     width: 25% !important;
   }
-  .u-large-1of4,
-  .u-large-3of4 {
+  .uLarge1of4,
+  .uLarge3of4 {
     -webkit-box-flex: 0 !important;
     -webkit-flex: none !important;
     -ms-flex: none !important;
     flex: none !important;
   }
-  .u-large-3of4 {
+  .uLarge3of4 {
     width: 75% !important;
   }
 }
@@ -1524,13 +1524,13 @@ ul {
 * 21. Header
 ****************************************************/
 .header {
-  padding: 1.5em;
+  padding: 30px;
   background-color: hsla(31, 15%, 50%, 0.1);
   text-align: center;
 }
 @media (min-width: 768px) {
   .header {
-    padding: 3em 1.5em;
+    padding: 40px 25pxem;
   }
 }
 
@@ -1540,10 +1540,9 @@ ul {
 ****************************************************/
 .footer {
   padding: 24px;
-  padding: 1.5rem;
   background: #404040;
   color: #999;
-  font-size: 0.85em;
+  font-size: 16px;
   overflow-x: hidden;
   text-align: center;
 }
