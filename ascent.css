@@ -1524,13 +1524,13 @@ ul {
 * 21. Header
 ****************************************************/
 .header {
-  padding: 1.5em;
+  padding: 30px;
   background-color: hsla(31, 15%, 50%, 0.1);
   text-align: center;
 }
 @media (min-width: 768px) {
   .header {
-    padding: 3em 1.5em;
+    padding: 40px 25px;
   }
 }
 
@@ -1540,10 +1540,9 @@ ul {
 ****************************************************/
 .footer {
   padding: 24px;
-  padding: 1.5rem;
   background: #404040;
   color: #999;
-  font-size: 0.85em;
+  font-size: 16px;
   overflow-x: hidden;
   text-align: center;
 }
